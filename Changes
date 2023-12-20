@@ -1,0 +1,37 @@
+0.005   2019-02-14  Released-By: PERLANCAR
+
+        - No functional changes.
+
+        - [dist] Rebuild with updated PWP:Bencher::Scenario which mentions
+          datasets not included by default.
+
+
+0.004   2019-02-14  Released-By: PERLANCAR
+
+        - Add more datasets: empty (not enabled by default because it croaks
+          Algorithm::Dependency), 2nodes-1edge, 10nodes-35edges,
+          100nodes-100edges, 100nodes-500edges (not enabled by default because
+          Sort::Topological eats too much RAM).
+
+
+0.003   2017-04-03  Released-By: PERLANCAR
+
+        - Add participant: Algorithm::Dependency.
+
+        - Fix Sort::Topological participant code.
+
+        - Add some cyclic datasets (not enabled by default).
+
+
+0.002   2017-01-25  Released-By: PERLANCAR
+
+	- No functional changes.
+
+        - [build] Rebuild with updated Dist::Zilla::Plugin::Bencher::Scenario
+          (0.16) to add benchmarked modules as prereq with phase=x_benchmarks,
+          type=x_benchmarks.
+
+
+0.001   2016-08-07  Released-By: PERLANCAR
+
+        - First release.
